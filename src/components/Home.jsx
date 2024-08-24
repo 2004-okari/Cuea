@@ -26,7 +26,6 @@ import './components.css';
 const Home = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
   const name = 'NYANDUSI NYAKERAMBA';
-  console.log(name);
   const data = [
     {
       id: 1,
