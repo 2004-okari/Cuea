@@ -46,7 +46,7 @@
 
       .inputbox {
         width: 91.5%;
-        height: 20;
+        height: 20px;
         padding: 8px 12px;
         border-color: #d2d6de;
         border: 1px solid #ccc;
@@ -128,6 +128,7 @@
 
 .homepage {
   background-color: #ecf0f5;
+  overflow-x: hidden;
 
   .header {
     background-color: #f88207;
@@ -139,6 +140,7 @@
       padding: 15px 0;
       margin: 0;
       letter-spacing: -0.5px;
+      text-align: center;
 
       /* add Helvetica font */
     }
