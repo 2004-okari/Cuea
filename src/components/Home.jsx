@@ -110,7 +110,7 @@ const Home = () => {
           style={{
             width: '0px',
             backgroundColor: 'rgb(212, 215, 217)',
-            position: 'fixed',
+            position: 'sticky',
             height: '100vh',
             zIndex: '1',
             top: '88px',
@@ -366,12 +366,7 @@ const Home = () => {
                 gap: '6px',
               }}
             >
-              <FaGears
-                style={{}}
-                size={19}
-                color="rgb(0, 115, 183)
-"
-              />
+              <FaGears style={{}} size={19} color="rgb(0, 115, 183)" />
               <p
                 style={{
                   fontSize: '14px',
@@ -468,7 +463,6 @@ const Home = () => {
           style={{
             display: 'block',
             transition: '0.5s',
-            overflowX: 'hidden',
           }}
         >
           <p className="maintitle">Dashboard</p>
@@ -741,7 +735,12 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div>
+            <div
+              style={{
+                display: 'grid',
+                placeItems: 'center',
+              }}
+            >
               <img
                 style={{
                   width: '200px',
@@ -756,6 +755,7 @@ const Home = () => {
               style={{
                 fontiSze: '21px',
                 fontWeight: '500',
+                textAlign: 'center',
                 color: ' rgb(51, 51, 51)',
               }}
             >
@@ -977,6 +977,7 @@ const Home = () => {
             color: '#444444',
             fontWeight: '700',
             letterSpacing: '-0.2px',
+            textAlign: 'center',
           }}
         >
           All rights reserved &#169; 2024. Powered by
